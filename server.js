@@ -46,4 +46,4 @@ server = connect.createServer(
 var port     = process.env.PORT || 8001;
 var hostname = process.env.HOSTNAME || 'localhost';
 
-server.listen(port, hostname);
+server.listen(port);
